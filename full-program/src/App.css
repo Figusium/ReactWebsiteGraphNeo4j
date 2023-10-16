@@ -1,0 +1,85 @@
+/*Charles Funnell - 103982619 - All comments are mine*/
+.App {
+  text-align: center;
+}
+
+#menu {
+  background-color: rgb(20, 0, 131);
+}
+
+#label1, #label2, #label3 {
+  color:  white;
+}
+
+#tab1, #tab3 {
+  background-color: white;
+  color: black;
+}
+
+#tab2 {
+  background-color: black;
+  color: white;
+}
+
+#DataList {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: inline;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Box {
+  text-align: center;
+}
+
+.Section {
+  margin:auto;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+/*This is taken from https://www.w3schools.com/css/css_website_layout.asp, in order add reactivity to this website. Also pointless now.*/
+@media screen and (max-width: 800px) {
+  #left,  #right {
+    width: 100%;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
